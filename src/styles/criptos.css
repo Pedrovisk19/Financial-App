@@ -1,0 +1,22 @@
+.criptos {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 5rem;
+}
+
+.textCriptoApresentation {
+	z-index: 5;
+	background-color: transparent;
+}
+
+.css-p4qwe6 {
+	margin-left: 1rem;
+}
+
+.imgCripto {
+	position: absolute;
+	/* width: 1000px; */
+	top: 18rem;
+	right: 21rem;
+}

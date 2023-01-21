@@ -1,0 +1,116 @@
+.balance {
+	background-color: #5da271;
+	width: 30rem;
+	height: 13rem;
+	border-radius: 0.5rem;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+}
+.card {
+	position: relative;
+	left: 20%;
+	top: 80px;
+	border-radius: 0.6rem;
+	z-index: 5;
+	background-color: transparent;
+	width: 17rem;
+}
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.buttons {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+.buttons * {
+	background-color: white;
+	border: none;
+	border-radius: 5px;
+	color: #cfcfcf;
+	padding: 0.8rem;
+	margin-left: 2rem;
+	position: relative;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.buttons *:hover {
+	background-color: rgba(255, 255, 255, 0.788);
+	border: none;
+	border-radius: 5px;
+	color: #868686;
+	margin-left: 2rem;
+}
+.seeCards {
+	display: flex;
+	justify-content: space-between;
+	/* align-items: center; */
+	width: 20rem;
+	height: 13rem;
+	margin-left: 1.6rem;
+	border-radius: 0.5rem;
+	padding: 2.3rem;
+	background-color: #16446c;
+	position: relative;
+}
+.creditcards {
+	background-color: transparent;
+	position: absolute;
+	width: 120px;
+	cursor: pointer;
+}
+
+#card_1 {
+	top: 55%;
+	right: 30px;
+	position: absolute;
+	transition: 0.2s;
+}
+#card_1:hover {
+	top: 45%;
+	right: 30px;
+	position: absolute;
+	z-index: 5;
+}
+#card_2 {
+	top: 55%;
+	right: 80px;
+	position: absolute;
+	transition: 0.2s;
+}
+#card_2:hover {
+	top: 45%;
+	right: 80px;
+	position: absolute;
+	z-index: 5;
+}
+#card_3 {
+	top: 55%;
+	right: 130px;
+	position: absolute;
+	transition: 0.2s;
+}
+#card_3:hover {
+	top: 45%;
+	right: 130px;
+	position: absolute;
+	z-index: 5;
+}
+#card_4 {
+	top: 55%;
+	right: 180px;
+	position: absolute;
+	transition: 0.2s;
+}
+#card_4:hover {
+	top: 45%;
+	right: 180px;
+	position: absolute;
+	z-index: 5;
+}

@@ -1,5 +1,15 @@
-import '@/styles/globals.css'
+import { ChakraProvider } from "@chakra-ui/react";
+import "../styles/navbar.css";
+import "../styles/main.css";
+import "../styles/global.css";
+import "../styles/criptos.css";
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function App({ Component, pageProps }) {
+	return (
+		<ChakraProvider>
+			<Component {...pageProps} />
+		</ChakraProvider>
+	);
 }
+
+export default App;
