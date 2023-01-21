@@ -114,3 +114,26 @@
 	position: absolute;
 	z-index: 5;
 }
+
+@media (min-width: 2000px) {
+	.card {
+		position: relative;
+		left: 25%;
+		top: 80px;
+		border-radius: 0.6rem;
+		z-index: 5;
+		background-color: transparent;
+		width: 17rem;
+	}
+}
+@media (min-width: 2800px) {
+	.card {
+		position: relative;
+		left: 35%;
+		top: 80px;
+		border-radius: 0.6rem;
+		z-index: 5;
+		background-color: transparent;
+		width: 17rem;
+	}
+}
