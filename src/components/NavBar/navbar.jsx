@@ -58,6 +58,18 @@ function NavBar() {
 								Add Credit Cards
 							</Text>
 						</li>
+						<li>
+							<Link href="/addContacts">
+								<Text
+									bgClip="text"
+									color="#000"
+									fontSize={14}
+									fontWeight="regular"
+								>
+									Add Contacts
+								</Text>
+							</Link>
+						</li>
 					</ul>
 				</div>
 				<div className="profile">

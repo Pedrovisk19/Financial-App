@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import { Button, Text } from "@chakra-ui/react";
 // import "./styles.css";
 import { CreditCards } from "../../fakeDBCards";
-import About from "../about";
+import SeeAll from "../SeeAll";
+import Link from "next/link";
 
 function Main() {
 	const [balance, setbalance] = useState("$12.558");
@@ -59,9 +60,11 @@ function Main() {
 					</Text>
 				</div>
 				<div className="buttons">
-					<Button>Sended</Button>
-					<Button>Transfers</Button>
-					<Button>Incomes</Button>
+					<Link href="/addContacts">Contacts</Link>
+
+					<Link href="/addContacts">Transfers</Link>
+
+					<Link href="/addContacts">Incomes</Link>
 				</div>
 				<div className="seeCards">
 					<Text
@@ -84,7 +87,7 @@ function Main() {
 					</Text>
 					{AllCards()}
 				</div>
-				<div>{show && <About />}</div>
+				<div>{show && <SeeAll setShow={setShow} />}</div>
 			</div>
 		</>
 	);

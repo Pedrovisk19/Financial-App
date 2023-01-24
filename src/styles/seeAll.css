@@ -1,0 +1,23 @@
+.father {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	transition: 0.5s;
+	margin-bottom: 9rem;
+}
+
+.seeAllCards {
+	display: flex;
+	justify-content: space-between;
+	width: 40rem;
+	height: 33rem;
+	margin-left: 1.6rem;
+	border-radius: 0.5rem;
+	padding: 2.3rem;
+	background-color: #16446c;
+	position: absolute;
+	transform: translateX(-80%);
+	z-index: 5;
+	box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
