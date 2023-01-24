@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
 import NavBar from "@/components/NavBar/navbar";
-import "../api/contacts";
 
 function MyContacts() {
 	return (
