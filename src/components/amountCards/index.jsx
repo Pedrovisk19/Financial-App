@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { CreditCards } from "../../fakeDBCards";
-// import "./styles.css";
 
 function AmountCards() {
 	const [balance, setbalance] = useState("$12.558");
