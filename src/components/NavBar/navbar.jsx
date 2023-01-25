@@ -13,7 +13,7 @@ function NavBar() {
 					</Text>
 					<ul>
 						<li className="li">
-							<Link href="/">
+							<Link href="/Home">
 								<Text
 									bgClip="text"
 									color="#000"

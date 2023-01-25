@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { initializeApp } from "firebase/app";
-import { useNavigate } from "react-router";
 
 import {
 	addDoc,
@@ -22,7 +21,7 @@ import {
 	toa,
 	useToast,
 } from "@chakra-ui/react";
-import { Card, CardHeader, CardBody, CardFooter } from "@chakra-ui/react";
+import { Card, CardBody, CardFooter } from "@chakra-ui/react";
 
 import NavBar from "@/components/NavBar/navbar";
 import { CloseIcon } from "@chakra-ui/icons";
@@ -60,7 +59,6 @@ function AddContacts() {
 			pix,
 			email,
 		});
-		location.reload();
 
 		console.log(contact);
 	}
