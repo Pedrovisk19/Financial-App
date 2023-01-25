@@ -132,7 +132,7 @@ function AddContacts() {
 				</Button>
 			</div>
 			<div className="formAddContacts ">
-				<form action="">
+				<form action="" className="formContact">
 					<div className="title">
 						<Text fontSize={22} fontWeight="bold">
 							ADD CONTACTS

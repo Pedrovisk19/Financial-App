@@ -14,3 +14,24 @@ html {
 	height: 100vh;
 	background-color: #d5dcea !important;
 }
+
+.form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.formLogin {
+	background-color: rgb(255, 255, 255);
+	border-radius: 1rem;
+	padding: 3rem;
+	width: 30rem;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 1.3rem;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+		rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}

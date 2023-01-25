@@ -16,7 +16,7 @@ function Login() {
 	const router = useRouter();
 	return (
 		<div className="form">
-			<form action="">
+			<form action="" className="formLogin">
 				<div className="title">
 					<Text fontSize={22} fontWeight="bold">
 						Financial App
